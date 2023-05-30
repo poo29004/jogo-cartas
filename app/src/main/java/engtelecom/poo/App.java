@@ -8,6 +8,7 @@ import javax.swing.JFrame;
 
 import edu.princeton.cs.algs4.Draw;
 import edu.princeton.cs.algs4.DrawListener;
+import edu.princeton.cs.algs4.StdAudio;
 
 public class App implements DrawListener {
 
@@ -81,6 +82,9 @@ public class App implements DrawListener {
             this.draw.text(400, 200, "Tecla S foi pressionada");
             // com double buffering é necessário invocar o método show
             this.draw.show();
+
+            // https://introcs.cs.princeton.edu/java/stdlib/javadoc/StdAudio.html
+            StdAudio.play("sons/game-over.wav");
         }
 
     }
