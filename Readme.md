@@ -1,8 +1,8 @@
-# Lidando com eventos do mouse com a biblioteca Standard Libraries
+# Lidando com eventos do mouse
 
-Um pequeno exemplo para demonstrar como lidar com o evento de botão do mouse pressionado e tecla pressionada. 
+Esse exemplo faz uso da biblioteca [algs4](https://github.com/emersonmello/algs4) da universidade de Princeton, que está sob licença de software livre GPL versão 3.
 
-Esse exemplo faz uso da [Standard Libraries](https://introcs.cs.princeton.edu/java/stdlib/) da universidade de Princeton, que está sob licença de software livre GPL versão 3.
+Um pequeno exemplo para demonstrar como lidar com o evento de botão do mouse pressionado e tecla pressionada (teste com a tecla `s`). 
 
 > ## Aviso de isenção de responsabilidade
 > 

@@ -16,7 +16,8 @@ public class App implements DrawListener {
     private Elemento elemento;
 
     public App(char naipe, char valor) {
-        this.draw = new Draw("Jogo de cartas");
+        this.draw = new Draw();
+        this.draw.setTitle("Jogo de cartas");
         draw.setXscale(0, 1600);
         draw.setYscale(0, 800);
         this.draw.addListener(this);
